@@ -1,0 +1,28 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# MATLAB - Autosave files
+*.asv
+
+# MATLAB - Compiled files
+*.mex*
+*.oct
+
+# MATLAB - Simulink Cache & Generated Code
+*.slxc
+slprj/
+_grt/
+_ert/
+*_acc.jpg
+
+# MATLAB - Session data
+*.mat
+!model_data.mat  # Eğer projede kritik bir .mat veri dosyası varsa başına ünlem koyup hariç tutabilirsin
+
+# Figures (Opsiyonel: Eğer grafik resimlerini yüklemek istemiyorsan aç, ama biz istiyoruz)
+# *.png
+# *.jpg
